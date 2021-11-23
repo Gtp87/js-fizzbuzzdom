@@ -30,3 +30,14 @@ h1 {
   align-items: center;
 }
 
+.red {
+    background-color: tomato;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.green {
+    background-color: lightgreen;
+}

@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #161C3B;
 }
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: white;
+    margin: 2em 0;
 }
 
 .container {
@@ -24,7 +25,7 @@ h1 {
 .box {
   width: 100px;
   height: 100px;
-  background-color: yellow;
+  background-color: lightsteelblue;
   display: flex;
   justify-content: center;
   align-items: center;

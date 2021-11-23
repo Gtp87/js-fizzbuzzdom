@@ -7,7 +7,7 @@ for (let i = 1; i <= 100; i++) {
     const div = document.createElement('div');
     div.classList.add('box');
     container.append(div);
-    div.append(i);
+    
 
     // se dividsibile per 3 e 5 scrivi FizzBuzz
     if (i % 3 == 0 && i % 5 == 0) {
@@ -25,6 +25,6 @@ for (let i = 1; i <= 100; i++) {
          // aggiungo classe specifica
         div.classList.add('pink');
     } else {
-        
+        div.append(i);
     }
 };

@@ -15,6 +15,7 @@ for (let i = 1; i <= 100; i++) {
     // se divisibile per 3 scrivi Fizz
     } else if (i % 3 == 0) {
         div.innerHTML = 'Fizz';
+        div.classList.add('red');
     // se divisibile per 5 scrivi Buzz
     } else if (i % 5 == 0) {
         div.innerHTML = 'Buzz';
